@@ -1,0 +1,16 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "license": "ISC",
+  "author": "Shikhar Upadhyay",
+  "type": "commonjs",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
