@@ -107,3 +107,9 @@ async function controlAddRecipe(newRecipe) {
         addRecipeView.renderError(err.message);
     }
 }
+
+function newFeature() {
+    console.log("Welcome to the application");
+}
+
+newFeature();
